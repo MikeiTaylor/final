@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device=width, initial-scale=1.0" charset="utf-8">
+<title>Final</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header"> 
+<nav>
+<a href="index.html"><img src="Images/1.png" alt=""></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="">Up Comning Events</a></li>
+<li><a href="">Content</a></li>
+<li><a href="">Map</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">About</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+<h1> Astronomy Today</h1>
+<p><br></p>
+
+	<a href="" class="hero-btn">Visit us to know more</a>
+</div>
+
+</section>
+
+<!------ Moon Phases ------>
+<section class="Moon Phases">
+<h1>Learn about the Phases of the Moon </h1>
+<p> There are 8 Phases of the Moon</p>
+
+<div class="row">
+<div class="Moon Phases-col">
+<h3>The 8 Phases</h3>
+<p> New Moon, Waxing Crescent, First Quarter, Waxing Gibbous, Full Moon, Waning Gibbous, Last Quarter, Waning Crescent.</p>
+</div>
+</div>
+
+
+</section>
+<!------ Eclipses ------>
+<section class="eclipses">
+<h1>Eclipses of our Solar System</h1>
+<p>Lunar and Solar Eclipses</p>
+
+<div clss="row">
+	
+	<div class="eclipse-col">
+		<img src="Images/lunar.jpg.jpeg" alt="">
+<div class="layer">
+<h3>Lunar Eclipse</h3>
+</div>
+</div>
+<div class="eclipse-col">
+<img src="Images/both.jpg.jpeg" alt="">
+<div class="layer">
+<h3>The diffrence in Eclipses</h3>
+</div>
+</div>
+<div class="eclipse-col">
+<img src="Images/solar.jpg.jpeg" alt="">
+<div class="layer">
+<h3>Solar Eclipse</h3>
+</div>
+</div>
+</div>
+</section>
+
+<!------- Meteor ------->
+
+<section class="Meteor">
+<h1>Meteor Showers</h1>
+<p>A meteor shower is a celestial event in which a number of meteors are observed to radiate, or originate, from one point in the night sky.</p>
+
+<div class="row">
+<div class="Meteor-col">
+<img src="Images/meteor.jpg.jpg" alt="">
+<h3>Did You Know?</h3>
+<p>Most meteor showers are caused by debris from comets.</p>
+</div>
+<div class="Meteor-col">
+	<img src="Images/2.jpg.jpeg" alt="">
+<h3>Meteors</h3>
+<p>Meteors fall to Earth during the day, although we can’t see them.</p>
+</div>
+<div class="Meteor-col">
+<img src="Images/3.jpg.jpeg" alt="">
+<h3>Night Sky Light</h3>
+<p>Some meteors burn brighter than usual, and these are called fireballs.</p>
+</div>
+</div>
+
+</section>
+
+<!------ Call To Action -------->
+
+<section class="cta">
+<h1>Get to know our Solar System</h1>
+<a href="" class="hero-btn">Contact Us</a>
+</section>
+
+<!------ Footer -------->
+<section class="footer">
+<h4>About Us</h4>
+<p>Feel free to contact us at any time</p>
+</section>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p>Created By Michael Taylor</p>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+var navLinks = document.getElementByID("navLinks");
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
